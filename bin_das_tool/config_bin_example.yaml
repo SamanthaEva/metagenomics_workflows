@@ -1,0 +1,6 @@
+assembly: '/scratch/users/bsiranos/britton_20x/britton_2A/athena/results/olc/athena.asm.fa'
+sample: 'britton_2A'
+reads1: '/scratch/users/bsiranos/britton_20x/britton_2A/deduplicated_sync/barcoded_val_nodup_sync_1.fastq'
+reads2: '/scratch/users/bsiranos/britton_20x/britton_2A/deduplicated_sync/barcoded_val_nodup_sync_2.fastq'
+krakendb: '/labs/asbhatt/data/program_indices/kraken2/kraken_custom_oct2018/genbank_bacteria'
+read_length: 150
