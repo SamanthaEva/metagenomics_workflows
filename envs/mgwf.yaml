@@ -1,18 +1,17 @@
-name: mgwf2
+name: mgwf
 channels:
   - bioconda
   - conda-forge
   - ursky
   - defaults
 dependencies:
-  - python
+  - python >= 3.5
   - minimap2
   - readline=6.2
   - r-ggplot2
   - r-doBy
   - r-circlize
   - prodigal
-  - checkm-genome
   - aragorn
   - metabat2
   - barrnap
@@ -23,6 +22,7 @@ dependencies:
   - bedtools
   - kraken2
   - bwa
+  - pip
   - pip:
     - pysam
     - numpy

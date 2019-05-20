@@ -1,0 +1,6 @@
+name: checkm
+channels:
+  - bioconda
+dependencies:
+  - checkm-genome
+
