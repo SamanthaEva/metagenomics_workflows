@@ -1,10 +1,11 @@
-name: mgwf
+name: mgwf2
 channels:
   - bioconda
   - conda-forge
   - ursky
   - defaults
 dependencies:
+  - python
   - minimap2
   - readline=6.2
   - r-ggplot2
@@ -25,3 +26,4 @@ dependencies:
   - pip:
     - pysam
     - numpy
+    - snakemake
