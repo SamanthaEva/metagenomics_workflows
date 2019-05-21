@@ -143,7 +143,7 @@ rule checkm:
     threads: 24
     shell: """
         rm -rf {samp}/checkm/*
-        {params.checkm_exec} lineage_wf -t {threads} -x fa --tab_table -f {samp}/checkm/checkm.tsv {samp}/bins/ {samp}/checkm
+        checkm lineage_wf -t {threads} -x fa --tab_table -f {samp}/checkm/checkm.tsv {samp}/bins/ {samp}/checkm
         """
 
 rule aragorn:
